@@ -1,4 +1,5 @@
 const User = require('../models/users');
+const crypto = require("node:crypto");
 
 async function signUp(req, res) {
     const body = req.body;
